@@ -5,6 +5,7 @@ body{
 }
 .container{
     width: 360px;
+    height: 250px;
     padding: 33px;
     text-align: center;
     background-color: #fff;
