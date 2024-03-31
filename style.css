@@ -46,7 +46,7 @@ button{
     cursor: pointer;
     border-radius: 3px;
 }
-.text ul{
+.delete ul{
     position: relative;
     background-color: rgb(11, 98, 98);
     color: white;
@@ -54,11 +54,27 @@ button{
     text-align: left;
     padding: 7px 20px;
 }
-.text ul i{
+.delete ul i{
     position: absolute;
     cursor: pointer;
     right: 25px;
 }
-.text ul i:hover{
+.delete ul i:hover{
     color: red;
+}
+.edit ul{
+    position: relative;
+    background-color: rgb(11, 98, 98);
+    color: white;
+    font-size: 19px;
+    text-align: left;
+    padding: 7px 20px;
+}
+.edit ul i{
+    position: absolute;
+    cursor: pointer;
+    right: 25px;
+}
+.edit ul i:hover{
+    color: rgb(0, 255, 72);
 }
