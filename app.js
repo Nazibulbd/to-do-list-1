@@ -1,12 +1,11 @@
 let inputs = document.getElementById("inp");
-let edits = document.querySelector(".edit")
 let deletes = document.querySelector(".delete");
 
 function Add (){
     if(inputs.value === ""){
         alert("Please Enter Task")
     } else{
-        let newEle =document.createElement("ul");
+        let newEle = document.createElement("ul");
         newEle.innerHTML = `${inputs.value}<i class="fa-solid fa-trash"></i>`;
         deletes.appendChild(newEle);
         inputs.value="";
